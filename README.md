@@ -1,8 +1,7 @@
 Carousel View Demo
 
 Demonstration of simple carousel view. This demo uses a ViewPager to allow for arbitrary view content for each carousel position. Indicator
-views are shown below the carousel content and can be customized to new drawables. An example using HorizontalScrollView may be added at a later
-time.
+views are shown below the carousel content and can be customized to new drawables.
 
 --License--
 
