@@ -36,7 +36,7 @@ public class DemoActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_demo);
 
-        mCarousel = (CarouselView) findViewById(R.id.DemoActivity_carousel);
+        mCarousel = (CarouselView) findViewById(R.id.carousel);
 
         List<DemoData> items = getCarouselItems();
         mCarousel.setAdapter(new CarouselView.Adapter<DemoData>(items) {
@@ -71,7 +71,7 @@ public class DemoActivity extends ActionBarActivity {
      * @return Collection of data to back this demo's carousel.
      */
     private List<DemoData> getCarouselItems() {
-        List<DemoData> items = new ArrayList<DemoData>();
+        List<DemoData> items = new ArrayList<>();
         items.add(new DemoData("1", R.color.blue));
         items.add(new DemoData("2", R.color.red));
         items.add(new DemoData("3", R.color.purple));

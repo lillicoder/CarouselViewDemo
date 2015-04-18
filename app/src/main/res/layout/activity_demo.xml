@@ -16,7 +16,7 @@ limitations under the License.
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 
     <com.lillicoder.demo.carouselview.widget.CarouselView
-        android:id="@+id/DemoActivity_carousel"
+        android:id="@+id/carousel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/default_side_margin"
