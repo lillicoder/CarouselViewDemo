@@ -1,0 +1,13 @@
+bin/
+build/
+gen/
+out/
+.DS_Store
+.classpath
+.idea
+.project
+.gradle
+*.iml
+local.properties
+proguard-project.txt
+Thumbs.db
